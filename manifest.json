@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Dream Singles Parser",
+  "version": "1.1.1",
+  "permissions": ["storage", "tabs", "activeTab", "scripting", "identity"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "Images/myicon.png",
+      "48": "Images/myicon.png",
+      "128": "Images/myicon.png"
+    }
+  },
+  "icons": {
+    "16": "Images/myicon.png",
+    "48": "Images/myicon.png",
+    "128": "Images/myicon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://agency.dream-singles.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "oauth2": {
+    "client_id": "YOUR_CLIENT_ID",
+    "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
+  },
+  "host_permissions": [
+    "https://agency.dream-singles.com/*",
+    "https://docs.google.com/*",
+    "https://accounts.google.com/*"
+  ]
+}
