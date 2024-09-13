@@ -55,7 +55,7 @@ Before using the extension, you need to set up your Google Cloud Project and obt
 
 To use the Dream Parser Extension effectively, you need to structure your Google Sheets document in a specific way. We provide a template that you can use as a starting point:
 
-[Download Template Spreadsheet](Sheets-example.xlsx)
+[Download Template Spreadsheet](https://docs.google.com/spreadsheets/d/1CF201kECnfgkVRWqOzzKcDbm7p_yO-hcL1Y3KgDhGJA/edit?usp=sharing)
 
 The spreadsheet structure should be as follows:
 
