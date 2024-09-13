@@ -34,7 +34,7 @@ We are always open to new ideas! If you have a suggestion for improvement, pleas
 
 1. Make sure your code meets our style guidelines.
 2. If you are adding new functionality, please include appropriate tests.
-3. update README.md if necessary.
+3. Update README.md if necessary.
 4. Make sure all tests pass successfully.
 5. Your Pull Request will be reviewed by the development team. We may suggest changes or improvements.
 
